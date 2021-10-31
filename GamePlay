@@ -1,0 +1,33 @@
+This Is Number Guessing Game
+You have to guess the three digit number
+The Computer will tell you:
+    -> Pico-If you guess the right number in But it is Wrong digit.
+    -> Fermi-If it is correct number and correct digit.
+    -> Bagels-If it is not a correct number.
+
+
+You have 10 Chances to Guess 
+>>>123
+
+Bagels
+>>>456
+Fermi
+>>>789
+Pico
+>>>457
+FermiFermi
+>>>657
+Fermi
+>>>485
+Fermi
+>>>487
+FermiFermi
+>>>497
+FermiFermi
+>>>407
+FermiFermiFermi
+Congratulations You Won the game
+The number is: 407
+Closing in 10s
+ 
+ Add your Experience!!
