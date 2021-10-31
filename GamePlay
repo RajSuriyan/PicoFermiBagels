@@ -31,3 +31,25 @@ The number is: 407
 Closing in 10s
  
  Add your Experience!!
+ 
+ This Is Number Guessing Game
+You have to guess the three digit number
+The Computer will tell you:
+    -> Pico-If you guess the right number in But it is Wrong digit.
+    -> Fermi-If it is correct number and correct digit.
+    -> Bagels-If it is not a correct number.
+
+
+You have 10 Chances to Guess 
+>>>123
+
+Bagels
+>>>456
+Fermi
+>>>789
+PicoPico
+>>>498
+FermiFermiFermi
+Congratulations You Won the game
+The number is: 498
+Closing in 10s
