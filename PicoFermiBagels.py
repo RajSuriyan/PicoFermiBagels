@@ -10,7 +10,8 @@ print("    -> Pico-If you guess the right number in But it is Wrong digit.")
 print('    -> Fermi-If it is correct number and correct digit.')
 print('    -> Bagels-If it is not a correct number.')
 print("\n\nYou have 10 Chances to Guess ")
-num=rd.randint(100,999)
+
+
 #game
 def splitter(a):
     a=str(a)
@@ -19,6 +20,15 @@ def splitter(a):
 def tim():
     print("Closing in 10s")
     time.sleep(10)
+
+while True:
+    num = rd.randint(100, 999)
+    m1, m2, m3 = splitter(num)
+    if m1==m2 or m1==m3 or m2==m3:
+        pass
+    else:
+        break
+
 
 
 
@@ -64,7 +74,25 @@ for i in range(0,10):
     else:
         check3 = 2
     w1,w2,w3=master[check],master[check2],master[check3]
-    print(w1,w2,w3)
+
+    checklist=[w1,w2,w3]
+    count=0
+    countf=0
+    for i in checklist:
+        if i==master[0]:
+            count+=1
+        if i==master[1]:
+            countf+=1
+
+    try:
+        print(master[0]*count+master[1]*countf)
+    except:
+        pass
+    if count==0 and countf==0:
+        print(master[2])
+
+
+
     if w1==master[1] and w2==master[1] and w3==master[1]:
         if w1==w2==w3:
             print("Congratulations You Won the game")
